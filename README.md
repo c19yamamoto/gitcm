@@ -1,17 +1,17 @@
 # commit-message-for-me
 
 This repo is just a memo for me.  
-| prefix | English describe | Japanese describe | emoji |
+| emoji | prefix | English describe | Japanese describe |
 | --------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------- | ------------------- |
-| create: | create a new file | 新規ファイル作成 | 🌱 :seedling: |
-| feat: | A new feature | 新しい機能 | ✨ :sparkles: |
-| fix: | A bug fix | バグの修正 | 🐛 :bug: |
-| docs: | Documentation only changes | ドキュメントのみの変更 | 📝 :memo: |
-| style: | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) | 空白、フォーマット、セミコロン追加など | 💄 :lipstick: |
-| refactor: | A code change that neither fixes a bug nor adds a feature | 仕様に影響がないコード改善(リファクタ) | ♻️ :recycle: |
-| perf: | A code change that improves performance | パフォーマンス向上のコード改善 | ⚡️ :zap: |
-| test: | Adding missing or correcting existing tests | テスト追加、修正 | 🚨 :rotating_light: |
-| chore: | Changes to the build process or auxiliary tools and libraries such as documentation generation | ビルド、補助ツール、ライブラリ関連 | 🔧 :wrench: |
+|🌱 `:seedling:`| create: | create a new file | 新規ファイル作成 |
+| ✨ `:sparkles:`| feat: | A new feature | 新しい機能 |
+| 🐛 `:bug:`| fix: | A bug fix | バグの修正 |
+| 📝 `:memo:`| docs: | Documentation only changes | ドキュメントのみの変更 |
+|💄 `:lipstick:`| style: | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) | 空白、フォーマット、セミコロン追加など |
+| ♻️ `:recycle:`| refactor: | A code change that neither fixes a bug nor adds a feature | 仕様に影響がないコード改善(リファクタ) |
+|⚡️ `:zap:`| perf: | A code change that improves performance | パフォーマンス向上のコード改善 |
+| 🚨 `:rotating_light:`| test: | Adding missing or correcting existing tests | テスト追加、修正 |
+| 🔧 `:wrench:`| chore: | Changes to the build process or auxiliary tools and libraries such as documentation generation | ビルド、補助ツール、ライブラリ関連 |
 
 example:
 
