@@ -5,7 +5,7 @@ This repo is just a memo for me.
 
 ## メモ
 
-| emoji                 | prefix    | English describe                                                                                       | Japanese describe                      |
+| emoji                 | prefix    | English description                                                                                    | Japanese description                   |
 | --------------------- | --------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------- |
 | 🌱 `:seedling:`       | create:   | create a new file                                                                                      | 新規ファイル作成                       |
 | ✨ `:sparkles:`       | feat:     | A new feature                                                                                          | 新しい機能                             |
@@ -20,7 +20,7 @@ This repo is just a memo for me.
 example:
 
 ```sh
-git commit -m ":sparkles:feat: add new feature"
+$ git commit -m ":sparkles:feat: add new feature"
 ```
 
 then commit message will be:  
