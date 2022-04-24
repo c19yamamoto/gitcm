@@ -17,31 +17,31 @@ function gitcm(){
         return
     }
     If($args[0] -eq "create"){
-        $msg="🌱create: "+$args[1]
+        $msg=":seedling:create: "+$args[1]
     }
     ElseIf($args[0] -eq "feat"){
-        $msg="✨feat: "+$args[1]
+        $msg=":sparkles:feat: "+$args[1]
     }
     ElseIf($args[0] -eq "fix"){
-        $msg="🐛fix: "+$args[1]
+        $msg=":bug:fix: "+$args[1]
     }
     ElseIf($args[0] -eq "docs"){
-        $msg="📝docs: "+$args[1]
+        $msg=":memo:docs: "+$args[1]
     }
     ElseIf($args[0] -eq "style"){
-        $msg="💄style: "+$args[1]
+        $msg=":lipstick:style: "+$args[1]
     }
     ElseIf($args[0] -eq "refactor"){
-        $msg="♻️refactor: "+$args[1]
+        $msg=":recycle:refactor: "+$args[1]
     }
     ElseIf($args[0] -eq "perf"){
-        $msg="⚡️perf: "+$args[1]
+        $msg=":zap:perf: "+$args[1]
     }
     ElseIf($args[0] -eq "test"){
-        $msg="🚨test: "+$args[1]
+        $msg=":rotating_light:test: "+$args[1]
     }
     ElseIf($args[0] -eq "chore"){
-        $msg="🔧chore: "+$args[1]
+        $msg=":wrench:chore: "+$args[1]
     }
     ElseIf($args[0] -eq "none"){
         $msg=$args[1]
