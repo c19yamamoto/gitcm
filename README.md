@@ -2,6 +2,8 @@
 
 Awesome git commit message generator :sunglasses:
 
+## options
+
 | option   | commit message                    | English description                                                                                    | Japanese description                   |
 | -------- | --------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------- |
 | create   | `🌱create: your_commit_message`   | create a new file                                                                                      | 新規ファイル作成                       |
@@ -14,6 +16,8 @@ Awesome git commit message generator :sunglasses:
 | test     | `🚨test: your_commit_message`     | Adding missing or correcting existing tests                                                            | テスト追加、修正                       |
 | chore    | `🔧chore: your_commit_message`    | Changes to the build process or auxiliary tools and libraries such as documentation generation         | ビルド、補助ツール、ライブラリ関連     |
 | none     | `your_commit_message`             | No prefix                                                                                              | 接頭辞なしでコミット                   |
+
+## Usage
 
 example:
 
@@ -28,9 +32,11 @@ then commit message will be:
 
 ```sh
 $ git clone https://github.com/shebang-sh/commit-message-for-me.git
+
 # If you use PowerShell, run this.
 $ "`r`n. " + $(Join-Path $(Get-Location) \commit-message-for-me\gitcm.ps1) >> $PROFILE
 $ . .\commit-message-for-me\gitcm.ps1
+
 # If you use Bash, Zsh, etc, run this.
 $ echo ". $(pwd)/gitcm.sh">~/.your_rc_file
 $ . ~/.your_rc_file
