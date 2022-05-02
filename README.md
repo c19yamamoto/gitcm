@@ -1,32 +1,6 @@
-# commit-message-for-me
+# gitcm
 
-This repo is just a memo for me.  
-追記：PowerShell では [`gitcm`](#gitcmcommit-message-for-me-generator-for-powershell) というコマンドでコミットメッセージを作れるようにしました。
-
-## メモ
-
-| emoji                 | prefix    | English description                                                                                    | Japanese description                   |
-| --------------------- | --------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------- |
-| 🌱 `:seedling:`       | create:   | create a new file                                                                                      | 新規ファイル作成                       |
-| ✨ `:sparkles:`       | feat:     | A new feature                                                                                          | 新しい機能                             |
-| 🐛 `:bug:`            | fix:      | A bug fix                                                                                              | バグの修正                             |
-| 📝 `:memo:`           | docs:     | Documentation only changes                                                                             | ドキュメントのみの変更                 |
-| 💄 `:lipstick:`       | style:    | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) | 空白、フォーマット、セミコロン追加など |
-| ♻️ `:recycle:`        | refactor: | A code change that neither fixes a bug nor adds a feature                                              | 仕様に影響がないコード改善(リファクタ) |
-| ⚡️ `:zap:`           | perf:     | A code change that improves performance                                                                | パフォーマンス向上のコード改善         |
-| 🚨 `:rotating_light:` | test:     | Adding missing or correcting existing tests                                                            | テスト追加、修正                       |
-| 🔧 `:wrench:`         | chore:    | Changes to the build process or auxiliary tools and libraries such as documentation generation         | ビルド、補助ツール、ライブラリ関連     |
-
-example:
-
-```sh
-$ git commit -m ":sparkles:feat: add new feature"
-```
-
-then commit message will be:  
-![commit-message-on-github](https://user-images.githubusercontent.com/63878044/163709738-40bd9464-9e33-4962-bb54-b99be97fc208.png)
-
-## gitcm(commit-message-for-me generator) for PowerShell
+Awesome git commit message generator :sunglasses:
 
 | option   | commit message                    | English description                                                                                    | Japanese description                   |
 | -------- | --------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------- |
@@ -52,14 +26,14 @@ then commit message will be:
 
 ## Install
 
-This is a PowerShell script.  
-You can install it if you use PowerShell.  
-Run this command to install:
-
 ```sh
 $ git clone https://github.com/shebang-sh/commit-message-for-me.git
+# If you use PowerShell, run this.
 $ "`r`n. " + $(Join-Path $(Get-Location) \commit-message-for-me\gitcm.ps1) >> $PROFILE
 $ . .\commit-message-for-me\gitcm.ps1
+# If you use Bash, Zsh, etc, run this.
+$ echo ". $(pwd)/gitcm.sh">~/.your_rc_file
+$ . ~/.your_rc_file
 ```
 
 ### 参考
