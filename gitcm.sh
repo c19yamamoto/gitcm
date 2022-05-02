@@ -39,7 +39,8 @@ gitcm () {
     elif [ "$1" = "none" ]; then
         msg="$2"
     else
-        msg="$2"
+        echo "Invalid option"
+        return
     fi
     git commit -m "$msg"
     return
