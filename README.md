@@ -1,6 +1,6 @@
 # gitcm
 
-Awesome git commit message generator :sunglasses:
+emoji prefix commit message generator :sunglasses:
 
 ## options
 
