@@ -34,8 +34,8 @@ then commit message will be:
 $ git clone https://github.com/shebang-sh/commit-message-for-me.git
 
 # If you use PowerShell, run this.
-$ "`r`n. " + $(Join-Path $(Get-Location) \commit-message-for-me\gitcm.ps1) >> $PROFILE
-$ . .\commit-message-for-me\gitcm.ps1
+$ "`r`n. " + $(Join-Path $(Get-Location) \gitcm\gitcm.ps1) >> $PROFILE
+$ . .\gitcm\gitcm.ps1
 
 # If you use Bash, Zsh, etc, run this.
 $ echo ". $(pwd)/gitcm/gitcm.sh">>~/.your_rc_file
