@@ -31,7 +31,7 @@ then commit message will be:
 ## Install
 
 ```sh
-$ git clone https://github.com/shebang-sh/commit-message-for-me.git
+$ git clone https://github.com/shebang-sh/gitcm.git
 
 # If you use PowerShell, run this.
 $ "`r`n. " + $(Join-Path $(Get-Location) \gitcm\gitcm.ps1) >> $PROFILE
