@@ -34,11 +34,11 @@ then commit message will be:
 $ git clone https://github.com/shebang-sh/gitcm.git
 
 # If you use PowerShell, run this.
-$ "`r`n. " + $(Join-Path $(Get-Location) \gitcm\gitcm.ps1) >> $PROFILE
+$ "`r`n. " + $(Join-Path $(Get-Location) \gitcm.ps1) >> $PROFILE
 $ . .\gitcm\gitcm.ps1
 
 # If you use Bash, Zsh, etc, run this.
-$ echo ". $(pwd)/gitcm/gitcm.sh">>~/.your_rc_file
+$ echo ". $(pwd)/gitcm.sh">>~/.your_rc_file
 $ . ~/.your_rc_file
 ```
 
