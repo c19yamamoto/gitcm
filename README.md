@@ -38,7 +38,7 @@ $ "`r`n powershell -File " + $(Join-Path $(Get-Location) \gitcm.ps1) >> $PROFILE
 $ powershell -File .\gitcm\gitcm.ps1
 
 # If you use Bash, Zsh, etc, run this.
-$ echo "¥r¥n. $(pwd)/gitcm/gitcm.sh">>~/.your_rc_file
+$ echo "\r\n. $(pwd)/gitcm/gitcm.sh">>~/.your_rc_file
 $ . ~/.your_rc_file
 ```
 
