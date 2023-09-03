@@ -30,19 +30,44 @@ then commit message will be:
 
 ## Install
 
+If you use Windows , you have to use -DWIN option at compile time.
+
 ```sh
 $ git clone https://github.com/shebang-sh/gitcm.git
 
-# If you use PowerShell, run this.
-$ "`r`n powershell -File " + $(Join-Path $(Get-Location) \gitcm.ps1) >> $PROFILE
-$ powershell -File .\gitcm\gitcm.ps1
+$ gcc gitcm.c -o gitcm # for UNIX like OS
+$ gcc gitcm.c -o gitcm.exe -DWIN # for Windows
 
-# If you use Bash, Zsh, etc, run this.
-$ echo "\r\n. $(pwd)/gitcm/gitcm.sh">>~/.your_rc_file
-$ . ~/.your_rc_file
+# For UNIX like OS
+$ mkdir -p $HOME/.local/bin
+$ cp gitcm $HOME/.local/bin/gitcm
+$ echo '\r\nalias gitcm=$HOME/.local/bin/gitcm' >> $HOME/.bashrc # or .zshrc
+$ source $HOME/.bashrc # or .zshrc
+
+# For Windows
+$ mkdir -p $HOME\local\bin
+$ Copy-Item -Path .\gitcm.exe -Destination "$HOME\local\bin\gitcm.exe"
+$ echo '`r`nSet-Alias gitcm "$HOME\local\bin\gitcm.exe"' >> $profile
+$ . $profile
 ```
 
 ### 参考
 
 1. [僕が考える最強のコミットメッセージの書き方](https://qiita.com/konatsu_p/items/dfe199ebe3a7d2010b3e)
 2. [GitHub のコミットメッセージに絵文字を入れて開発効率をあげる](https://qiita.com/Jung0/items/0a9a7a97a2c17f92d3c5)
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
