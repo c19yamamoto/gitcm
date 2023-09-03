@@ -55,19 +55,3 @@ $ . $profile
 
 1. [僕が考える最強のコミットメッセージの書き方](https://qiita.com/konatsu_p/items/dfe199ebe3a7d2010b3e)
 2. [GitHub のコミットメッセージに絵文字を入れて開発効率をあげる](https://qiita.com/Jung0/items/0a9a7a97a2c17f92d3c5)
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
