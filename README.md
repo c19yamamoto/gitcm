@@ -33,7 +33,7 @@ then commit message will be:
 If you use Windows , you have to use -DWIN option at compile time.
 
 ```sh
-$ git clone https://github.com/shebang-sh/gitcm.git
+$ git clone https://github.com/shebang-sh/gitcm.git && cd gitcm
 
 $ gcc gitcm.c -o gitcm # for UNIX like OS
 $ gcc gitcm.c -o gitcm.exe -DWIN # for Windows
