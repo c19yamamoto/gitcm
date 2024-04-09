@@ -33,18 +33,18 @@ then commit message will be:
 If you use Windows , you have to use -DWIN option at compile time.
 
 ```sh
-$ git clone https://github.com/shebang-sh/gitcm.git && cd gitcm
-
-$ gcc gitcm.c -o gitcm # for UNIX like OS
-$ gcc gitcm.c -o gitcm.exe -DWIN # for Windows
+$ git clone https://github.com/shebang-sh/gitcm.git
+$ cd gitcm
 
 # For UNIX like OS
+$ gcc gitcm.c -o gitcm
 $ mkdir -p $HOME/.local/bin
 $ cp gitcm $HOME/.local/bin/gitcm
-$ echo '\r\nalias gitcm=$HOME/.local/bin/gitcm' >> $HOME/.bashrc # or .zshrc
-$ source $HOME/.bashrc # or .zshrc
+$ echo '\nalias gitcm=$HOME/.local/bin/gitcm' >> $HOME/.zshrc # or .bashrc
+$ source $HOME/.zshrc # or .bashrc
 
 # For Windows
+$ gcc gitcm.c -o gitcm.exe -DWIN # for Windows
 $ mkdir -p $HOME\local\bin
 $ Copy-Item -Path .\gitcm.exe -Destination "$HOME\local\bin\gitcm.exe"
 $ echo '`r`nSet-Alias gitcm "$HOME\local\bin\gitcm.exe"' >> $profile
